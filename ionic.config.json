@@ -1,0 +1,7 @@
+{
+  "name": "tarea_3_ionic_app_mobile",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
