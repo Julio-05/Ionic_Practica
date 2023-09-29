@@ -1,0 +1,20 @@
+/* Estilos personalizados para mejorar la responsividad */
+ion-card {
+  max-width: 400px; /* Define un ancho máximo para el card */
+  margin: 0 auto; /* Centra el card horizontalmente */
+}
+
+ion-input {
+  max-width: 100%; /* Asegura que los inputs sean responsive */
+}
+
+ion-list {
+  padding: 10px; /* Agrega un espacio entre los elementos de la lista */
+}
+
+/* Estilos adicionales para dispositivos más pequeños */
+@media (max-width: 768px) {
+  ion-card {
+    max-width: 90%; /* Reduce el ancho máximo para pantallas más pequeñas */
+  }
+}

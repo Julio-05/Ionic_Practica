@@ -1,0 +1,19 @@
+.custom-card {
+  max-width: 400px; 
+  margin: 0 auto; 
+}
+
+.custom-input {
+  max-width: 100%; 
+}
+
+.custom-item {
+  padding: 5px 0;
+}
+
+
+@media (max-width: 768px) {
+  .custom-card {
+    max-width: 90%; 
+  }
+}
